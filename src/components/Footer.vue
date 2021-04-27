@@ -5,7 +5,7 @@
         <div class="col">
           <div class="footer__logo">
             <img
-              src="../assets/images/icons/footer-logo.png"
+              src="../assets/images/footer-logo.png"
               alt=""
               class="footer__img"
             />

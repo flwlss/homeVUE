@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
       <a class="navbar-brand logo" href="/"
-        ><img src="../assets/images/icons/logo.png" alt="logo"
+        ><img src="../assets/images/logo.png" alt="logo"
       /></a>
       <div
         class="collapse navbar-collapse collapse-fontsize"
