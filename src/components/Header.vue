@@ -70,14 +70,14 @@ export default {
 .menu-link {
   padding: 25px 30px;
   &:hover {
-    background-color: $grey;
+    background-color: $greyLight;
   }
 }
 .icons {
   a {
     width: 30px;
     height: 30px;
-    border: 1px solid $grey;
+    border: 1px solid $greyLight;
     text-align: center;
     border-radius: 50%;
     margin-right: 10px;
