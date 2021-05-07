@@ -22,19 +22,13 @@
         </div>
       </div>
     </div>
-<<<<<<< HEAD
     <Features :data="featureData" />
     <Properties :propertiesData="propertiesData" />
     <Slider />
-=======
-    <Features :data="featureData"/>
-    <Properties :propertiesData="propertiesData"/>
->>>>>>> 7fb6726c16bbff72f3d830e04f95c62e607884a6
   </div>
 </template>
 
 <script>
-<<<<<<< HEAD
 import { featureData, propertiesData } from "../data/data.dummy";
 
 // @ is an alias to /src
@@ -42,39 +36,20 @@ import Carusel from "../components/Carusel";
 import Features from "../components/Features";
 import Properties from "../components/Properties";
 import Slider from "../components/Slider";
-=======
-import {featureData, propertiesData} from "../data/data.dummy"
-
-
-// @ is an alias to /src
-import Carusel from "../components/Carusel"
-import Features from "../components/Features"
-import Properties from "../components/Properties"
-
->>>>>>> 7fb6726c16bbff72f3d830e04f95c62e607884a6
 
 export default {
   name: "Home",
   components: {
     Carusel,
     Features,
-<<<<<<< HEAD
     Properties,
     Slider,
-=======
-    Properties
->>>>>>> 7fb6726c16bbff72f3d830e04f95c62e607884a6
   },
   data() {
     return {
       featureData: featureData,
-<<<<<<< HEAD
       propertiesData: propertiesData,
-    };
-=======
-      propertiesData: propertiesData
     }
->>>>>>> 7fb6726c16bbff72f3d830e04f95c62e607884a6
   },
 };
 </script>
