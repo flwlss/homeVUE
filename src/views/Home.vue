@@ -25,6 +25,7 @@
     <Features :data="featureData" />
     <Properties :propertiesData="propertiesData" />
     <Slider />
+    <Banner />
   </div>
 </template>
 
@@ -36,6 +37,7 @@ import Carusel from "../components/Carusel";
 import Features from "../components/Features";
 import Properties from "../components/Properties";
 import Slider from "../components/Slider";
+import Banner from "../components/Banner";
 
 export default {
   name: "Home",
@@ -44,6 +46,7 @@ export default {
     Features,
     Properties,
     Slider,
+    Banner,
   },
   data() {
     return {
